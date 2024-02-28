@@ -700,7 +700,7 @@ struct ContentView: View {
     request.httpMethod = "POST"
     request.addValue("application/json", forHTTPHeaderField: "Content-Type")
     // Replace `your_openai_api_key` with your actual OpenAI API key
-    request.addValue("Bearer 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", forHTTPHeaderField: "Authorization")
+    request.addValue("Bearer your_openai_api_key", forHTTPHeaderField: "Authorization")
 
     // Prepare the JSON payload
     let payload: [String: Any] = [
