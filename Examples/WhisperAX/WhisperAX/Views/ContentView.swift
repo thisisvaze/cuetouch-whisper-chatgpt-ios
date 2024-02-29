@@ -31,7 +31,7 @@ struct ContentView: View {
     @State var prompt: String = """
     Above is the converstion script so far.
     Based on the user's speech speed suggest whether the user should speak slower or faster for an ideal conversation.
-    Only reply a single word either slower or faster. All in short caps. DO NOT REPLY WITH ANYTHING ELSE EXCEPT ONE WORD.
+    Only reply a single word. The word would be either SLOWER or FASTER. All in caps. DO NOT REPLY WITH ANYTHING ELSE EXCEPT ONE WORD.
     """
 
     @State private var apiResponseSummary: String = "Start recording and get suggestions"
@@ -681,6 +681,28 @@ struct ContentView: View {
     }
 
     // MARK: Logic
+
+    func provideTactileFeedback(forSuggestion suggestion: String) {
+    let feedbackGenerator = UIImpactFeedbackGenerator(style: .medium)
+    
+    switch suggestion {
+    case "FASTER":
+        // Provide a series of fast vibrations
+        for _ in 0..<3 {
+            feedbackGenerator.impactOccurred()
+            usleep(150000) // Sleep for 150 milliseconds
+        }
+    case "SLOWER":
+        // Provide a series of slow vibrations
+        feedbackGenerator.impactOccurred()
+        usleep(500000) // Sleep for 500 milliseconds
+        feedbackGenerator.impactOccurred()
+    default:
+        // No feedback for other cases
+        break
+    }
+}
+
     func getSuggestion() async {
     let fullTranscript = formatSegments(confirmedSegments + unconfirmedSegments, withTimestamps: enableTimestamps).joined(separator: "\n")
 
@@ -738,7 +760,7 @@ struct ContentView: View {
 //                }
                 
                 //show tactile feedback
-                
+                provideTactileFeedback(forSuggestion:content)
                 
             }
         } else {
