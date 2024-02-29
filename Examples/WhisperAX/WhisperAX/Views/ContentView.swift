@@ -138,6 +138,11 @@ struct ContentView: View {
             .navigationTitle("CueTouch")
             .navigationSplitViewColumnWidth(ideal: 35, max:300)
         } detail: {
+            Button("Test Haptics") {
+            let generator = UIImpactFeedbackGenerator(style: .medium)
+            generator.prepare()
+            generator.impactOccurred()
+        }
         VStack {
             #if os(iOS)
                 //modelSelectorView
@@ -681,22 +686,31 @@ struct ContentView: View {
     }
 
     // MARK: Logic
+func provideTactileFeedback(forSuggestion suggestion: String) {
+    let feedbackGenerator = UIImpactFeedbackGenerator(style: .heavy)
+    feedbackGenerator.prepare()
 
-    func provideTactileFeedback(forSuggestion suggestion: String) {
-    let feedbackGenerator = UIImpactFeedbackGenerator(style: .medium)
-    
-    switch suggestion {
-    case "FASTER":
-        // Provide a series of fast vibrations
-        for _ in 0..<3 {
+    let lowercasedSuggestion = suggestion.lowercased()
+
+    switch lowercasedSuggestion {
+case let str where str.contains("faster"):
+    // Provide a series of vibrations with decreasing sleep duration between them
+    var sleepDuration = 400000 // Start with 400 milliseconds
+    for i in 0..<3 {
+        DispatchQueue.main.asyncAfter(deadline: .now() + .microseconds(sleepDuration * i)) {
             feedbackGenerator.impactOccurred()
-            usleep(150000) // Sleep for 150 milliseconds
         }
-    case "SLOWER":
-        // Provide a series of slow vibrations
-        feedbackGenerator.impactOccurred()
-        usleep(500000) // Sleep for 500 milliseconds
-        feedbackGenerator.impactOccurred()
+        sleepDuration = max(100000, sleepDuration - 100000) // Decrease by 100 milliseconds, don't go below 100 milliseconds
+    }
+case let str where str.contains("slower"):
+    // Provide a series of vibrations with increasing sleep duration between them
+    var sleepDuration = 100000 // Start with 100 milliseconds
+    for i in 0..<3 {
+        DispatchQueue.main.asyncAfter(deadline: .now() + .microseconds(sleepDuration * i)) {
+            feedbackGenerator.impactOccurred()
+        }
+        sleepDuration += 100000 // Increase by 100 milliseconds
+    }
     default:
         // No feedback for other cases
         break
@@ -760,7 +774,9 @@ struct ContentView: View {
 //                }
                 
                 //show tactile feedback
-                provideTactileFeedback(forSuggestion:content)
+             
+                self.provideTactileFeedback(forSuggestion: content)
+
                 
             }
         } else {
@@ -987,6 +1003,8 @@ struct ContentView: View {
     }
 
     func startRecording(_ loop: Bool) {
+
+         
         if let audioProcessor = whisperKit?.audioProcessor {
             Task(priority: .userInitiated) {
                 guard await AudioProcessor.requestRecordPermission() else {
@@ -996,6 +1014,7 @@ struct ContentView: View {
 
                 try? audioProcessor.startRecordingLive { _ in
                     DispatchQueue.main.async {
+                     
                         bufferEnergy = whisperKit?.audioProcessor.relativeEnergy ?? []
                     }
                 }

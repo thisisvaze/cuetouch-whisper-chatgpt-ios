@@ -339,6 +339,23 @@ public extension AudioProcessor {
     }
 
     func setupEngine() throws -> AVAudioEngine {
+        let audioSession = AVAudioSession.sharedInstance()
+            do {
+                // Set the audio session category to play and record.
+                try audioSession.setCategory(.playAndRecord, mode: .default, options: [.mixWithOthers, .allowBluetooth, .defaultToSpeaker])
+
+                // Specifically allow haptics and system sounds during recording (iOS 13.0 and later).
+                if #available(iOS 13.0, *) {
+                    try audioSession.setAllowHapticsAndSystemSoundsDuringRecording(true)
+                }
+
+                // Activate the audio session.
+                try audioSession.setActive(true)
+            } catch {
+                print("Failed to configure the audio session: \(error)")
+                throw WhisperError.audioProcessingFailed("Failed to configure the audio session")
+            }
+
         let audioEngine = AVAudioEngine()
         let inputNode = audioEngine.inputNode
         let inputFormat = inputNode.outputFormat(forBus: 0)
