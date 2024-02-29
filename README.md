@@ -6,4 +6,4 @@ Add your openai_api_key to build on iOS and try it out!
 The prototype currently works on iOS.
 
 ## Next steps
-1. Support watchOS. 
+1. Connect frontend to support watchOS. 
