@@ -7,40 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		161136102B3F6C68003C20F6 /* WhisperKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1611360F2B3F6C68003C20F6 /* WhisperKit */; };
-		1677AFC22B57618A008C61C0 /* WhisperAXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFAB2B57618A008C61C0 /* WhisperAXApp.swift */; };
+		1677AFC22B57618A008C61C0 /* SpeakBEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFAB2B57618A008C61C0 /* SpeakBEN.swift */; };
 		1677AFC42B57618A008C61C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1677AFAE2B57618A008C61C0 /* Preview Assets.xcassets */; };
 		1677AFC92B57618A008C61C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1677AFB42B57618A008C61C0 /* Assets.xcassets */; };
 		1677AFCA2B57618A008C61C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1677AFB62B57618A008C61C0 /* Preview Assets.xcassets */; };
-		1677AFD32B5762BC008C61C0 /* WhisperAXWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFB72B57618A008C61C0 /* WhisperAXWatchApp.swift */; };
-		1677AFD42B57632E008C61C0 /* WhisperAXExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFB32B57618A008C61C0 /* WhisperAXExampleView.swift */; };
 		1677AFD92B5763B7008C61C0 /* WhisperAXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFBA2B57618A008C61C0 /* WhisperAXUITests.swift */; };
 		1677AFDA2B5763BA008C61C0 /* WhisperAXUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFB92B57618A008C61C0 /* WhisperAXUITestsLaunchTests.swift */; };
 		1677AFDC2B5763C0008C61C0 /* WhisperAXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFBC2B57618A008C61C0 /* WhisperAXTests.swift */; };
-		1677AFDD2B5763C7008C61C0 /* WhisperAX_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFBE2B57618A008C61C0 /* WhisperAX_Watch_AppTests.swift */; };
-		1677AFDE2B5763CB008C61C0 /* WhisperAX_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFA62B57618A008C61C0 /* WhisperAX_Watch_AppUITests.swift */; };
-		1677AFDF2B5763CE008C61C0 /* WhisperAX_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFA72B57618A008C61C0 /* WhisperAX_Watch_AppUITestsLaunchTests.swift */; };
 		1677AFE12B57678E008C61C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1677AFE02B57678E008C61C0 /* Assets.xcassets */; };
 		1677AFE62B57704E008C61C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1677AFE52B57704E008C61C0 /* ContentView.swift */; };
 		16D581092B4F7E4E000C0AB0 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 16D581082B4F7E4E000C0AB0 /* MarkdownUI */; };
 		16EA36CF2B59E550006CA7CF /* WhisperKit in Frameworks */ = {isa = PBXBuildFile; productRef = 16EA36CE2B59E550006CA7CF /* WhisperKit */; };
+		73BAE5B92BBA38680079A516 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 73BAE5B82BBA38680079A516 /* AppAuth */; };
+		73BAE5BB2BBA38680079A516 /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = 73BAE5BA2BBA38680079A516 /* AppAuthCore */; };
+		73BAE5C02BBA3A400079A516 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 73BAE5BF2BBA3A400079A516 /* AppAuth */; };
+		73BAE5C22BBA3A400079A516 /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = 73BAE5C12BBA3A400079A516 /* AppAuthCore */; };
+		73D804802BB48DB3000DE211 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8047F2BB48DB3000DE211 /* Keys.swift */; };
+		73F95BE72BB3DF8600B11A27 /* ViewFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F95BE62BB3DF8600B11A27 /* ViewFinderView.swift */; };
+		73F95BE92BB3E00000B11A27 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F95BE82BB3E00000B11A27 /* DataModel.swift */; };
+		73F95BEB2BB3E02000B11A27 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F95BEA2BB3E02000B11A27 /* Camera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		161135F12B3F66DC003C20F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 167B34562B05431E0076F261 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 161135DD2B3F66DA003C20F6;
-			remoteInfo = "Basic Watch App";
-		};
-		161135FB2B3F66DC003C20F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 167B34562B05431E0076F261 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 161135DD2B3F66DA003C20F6;
-			remoteInfo = "Basic Watch App";
-		};
 		167B34722B05431F0076F261 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 167B34562B05431E0076F261 /* Project object */;
@@ -71,13 +59,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		161135DE2B3F66DA003C20F6 /* WhisperAX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhisperAX.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		161135F02B3F66DC003C20F6 /* WhisperAX Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhisperAX Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		161135FA2B3F66DC003C20F6 /* WhisperAX Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhisperAX Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1677AFA62B57618A008C61C0 /* WhisperAX_Watch_AppUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhisperAX_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		1677AFA72B57618A008C61C0 /* WhisperAX_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhisperAX_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1677AFA92B57618A008C61C0 /* WhisperAX.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = WhisperAX.entitlements; sourceTree = "<group>"; };
-		1677AFAB2B57618A008C61C0 /* WhisperAXApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhisperAXApp.swift; sourceTree = "<group>"; };
+		1677AFAB2B57618A008C61C0 /* SpeakBEN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakBEN.swift; sourceTree = "<group>"; };
 		1677AFAE2B57618A008C61C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1677AFB32B57618A008C61C0 /* WhisperAXExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhisperAXExampleView.swift; sourceTree = "<group>"; };
 		1677AFB42B57618A008C61C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,40 +74,27 @@
 		1677AFBE2B57618A008C61C0 /* WhisperAX_Watch_AppTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhisperAX_Watch_AppTests.swift; sourceTree = "<group>"; };
 		1677AFE02B57678E008C61C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1677AFE52B57704E008C61C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		167B345E2B05431E0076F261 /* CueTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CueTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		167B34712B05431F0076F261 /* WhisperAXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhisperAXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		167B347B2B05431F0076F261 /* WhisperAXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhisperAXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167B345E2B05431E0076F261 /* SpeakBEN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakBEN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		167B34712B05431F0076F261 /* SpeakBENTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakBENTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167B347B2B05431F0076F261 /* SpeakBENUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakBENUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7307617A2BB354F30022D0AF /* SpeakBEN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SpeakBEN-Info.plist"; sourceTree = "<group>"; };
+		73D8047F2BB48DB3000DE211 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		73F95BE62BB3DF8600B11A27 /* ViewFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderView.swift; sourceTree = "<group>"; };
+		73F95BE82BB3E00000B11A27 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		73F95BEA2BB3E02000B11A27 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		161135DB2B3F66DA003C20F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				161136102B3F6C68003C20F6 /* WhisperKit in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		161135ED2B3F66DC003C20F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		161135F72B3F66DC003C20F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		167B345B2B05431E0076F261 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73BAE5C02BBA3A400079A516 /* AppAuth in Frameworks */,
+				73BAE5B92BBA38680079A516 /* AppAuth in Frameworks */,
 				16EA36CF2B59E550006CA7CF /* WhisperKit in Frameworks */,
 				16D581092B4F7E4E000C0AB0 /* MarkdownUI in Frameworks */,
+				73BAE5BB2BBA38680079A516 /* AppAuthCore in Frameworks */,
+				73BAE5C22BBA3A400079A516 /* AppAuthCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,15 +124,16 @@
 			path = WhisperAXWatchAppUITests;
 			sourceTree = "<group>";
 		};
-		1677AFA82B57618A008C61C0 /* WhisperAX */ = {
+		1677AFA82B57618A008C61C0 /* SpeakBEN */ = {
 			isa = PBXGroup;
 			children = (
-				1677AFAB2B57618A008C61C0 /* WhisperAXApp.swift */,
+				1677AFAB2B57618A008C61C0 /* SpeakBEN.swift */,
 				1677AFE42B5769E5008C61C0 /* Views */,
 				1677AFD72B576375008C61C0 /* Resources */,
 				1677AFAD2B57618A008C61C0 /* Preview Content */,
+				73D8047F2BB48DB3000DE211 /* Keys.swift */,
 			);
-			path = WhisperAX;
+			path = SpeakBEN;
 			sourceTree = "<group>";
 		};
 		1677AFAD2B57618A008C61C0 /* Preview Content */ = {
@@ -228,6 +201,9 @@
 			isa = PBXGroup;
 			children = (
 				1677AFE52B57704E008C61C0 /* ContentView.swift */,
+				73F95BE62BB3DF8600B11A27 /* ViewFinderView.swift */,
+				73F95BEA2BB3E02000B11A27 /* Camera.swift */,
+				73F95BE82BB3E00000B11A27 /* DataModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,7 +211,8 @@
 		167B34552B05431E0076F261 = {
 			isa = PBXGroup;
 			children = (
-				1677AFA82B57618A008C61C0 /* WhisperAX */,
+				7307617A2BB354F30022D0AF /* SpeakBEN-Info.plist */,
+				1677AFA82B57618A008C61C0 /* SpeakBEN */,
 				1677AFBB2B57618A008C61C0 /* WhisperAXTests */,
 				1677AFB82B57618A008C61C0 /* WhisperAXUITests */,
 				1677AFB22B57618A008C61C0 /* WhisperAXWatchApp */,
@@ -249,12 +226,9 @@
 		167B345F2B05431E0076F261 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				167B345E2B05431E0076F261 /* CueTouch.app */,
-				167B34712B05431F0076F261 /* WhisperAXTests.xctest */,
-				167B347B2B05431F0076F261 /* WhisperAXUITests.xctest */,
-				161135DE2B3F66DA003C20F6 /* WhisperAX.app */,
-				161135F02B3F66DC003C20F6 /* WhisperAX Watch AppTests.xctest */,
-				161135FA2B3F66DC003C20F6 /* WhisperAX Watch AppUITests.xctest */,
+				167B345E2B05431E0076F261 /* SpeakBEN.app */,
+				167B34712B05431F0076F261 /* SpeakBENTests.xctest */,
+				167B347B2B05431F0076F261 /* SpeakBENUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,65 +243,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		161135DD2B3F66DA003C20F6 /* WhisperAX Watch App */ = {
+		167B345D2B05431E0076F261 /* SpeakBEN */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 161136022B3F66DC003C20F6 /* Build configuration list for PBXNativeTarget "WhisperAX Watch App" */;
-			buildPhases = (
-				161135DA2B3F66DA003C20F6 /* Sources */,
-				161135DB2B3F66DA003C20F6 /* Frameworks */,
-				161135DC2B3F66DA003C20F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "WhisperAX Watch App";
-			packageProductDependencies = (
-				1611360F2B3F6C68003C20F6 /* WhisperKit */,
-			);
-			productName = "Basic Watch App";
-			productReference = 161135DE2B3F66DA003C20F6 /* WhisperAX.app */;
-			productType = "com.apple.product-type.application";
-		};
-		161135EF2B3F66DC003C20F6 /* WhisperAX Watch AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 161136092B3F66DC003C20F6 /* Build configuration list for PBXNativeTarget "WhisperAX Watch AppTests" */;
-			buildPhases = (
-				161135EC2B3F66DC003C20F6 /* Sources */,
-				161135ED2B3F66DC003C20F6 /* Frameworks */,
-				161135EE2B3F66DC003C20F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				161135F22B3F66DC003C20F6 /* PBXTargetDependency */,
-			);
-			name = "WhisperAX Watch AppTests";
-			productName = "Basic Watch AppTests";
-			productReference = 161135F02B3F66DC003C20F6 /* WhisperAX Watch AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		161135F92B3F66DC003C20F6 /* WhisperAX Watch AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1611360C2B3F66DC003C20F6 /* Build configuration list for PBXNativeTarget "WhisperAX Watch AppUITests" */;
-			buildPhases = (
-				161135F62B3F66DC003C20F6 /* Sources */,
-				161135F72B3F66DC003C20F6 /* Frameworks */,
-				161135F82B3F66DC003C20F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				161135FC2B3F66DC003C20F6 /* PBXTargetDependency */,
-			);
-			name = "WhisperAX Watch AppUITests";
-			productName = "Basic Watch AppUITests";
-			productReference = 161135FA2B3F66DC003C20F6 /* WhisperAX Watch AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		167B345D2B05431E0076F261 /* CueTouch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 167B34852B05431F0076F261 /* Build configuration list for PBXNativeTarget "CueTouch" */;
+			buildConfigurationList = 167B34852B05431F0076F261 /* Build configuration list for PBXNativeTarget "SpeakBEN" */;
 			buildPhases = (
 				167B345A2B05431E0076F261 /* Sources */,
 				167B345B2B05431E0076F261 /* Frameworks */,
@@ -338,18 +256,22 @@
 			);
 			dependencies = (
 			);
-			name = CueTouch;
+			name = SpeakBEN;
 			packageProductDependencies = (
 				16D581082B4F7E4E000C0AB0 /* MarkdownUI */,
 				16EA36CE2B59E550006CA7CF /* WhisperKit */,
+				73BAE5B82BBA38680079A516 /* AppAuth */,
+				73BAE5BA2BBA38680079A516 /* AppAuthCore */,
+				73BAE5BF2BBA3A400079A516 /* AppAuth */,
+				73BAE5C12BBA3A400079A516 /* AppAuthCore */,
 			);
 			productName = BasicExample;
-			productReference = 167B345E2B05431E0076F261 /* CueTouch.app */;
+			productReference = 167B345E2B05431E0076F261 /* SpeakBEN.app */;
 			productType = "com.apple.product-type.application";
 		};
-		167B34702B05431F0076F261 /* WhisperAXTests */ = {
+		167B34702B05431F0076F261 /* SpeakBENTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 167B34882B05431F0076F261 /* Build configuration list for PBXNativeTarget "WhisperAXTests" */;
+			buildConfigurationList = 167B34882B05431F0076F261 /* Build configuration list for PBXNativeTarget "SpeakBENTests" */;
 			buildPhases = (
 				167B346D2B05431F0076F261 /* Sources */,
 				167B346E2B05431F0076F261 /* Frameworks */,
@@ -360,14 +282,14 @@
 			dependencies = (
 				167B34732B05431F0076F261 /* PBXTargetDependency */,
 			);
-			name = WhisperAXTests;
+			name = SpeakBENTests;
 			productName = BasicExampleTests;
-			productReference = 167B34712B05431F0076F261 /* WhisperAXTests.xctest */;
+			productReference = 167B34712B05431F0076F261 /* SpeakBENTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		167B347A2B05431F0076F261 /* WhisperAXUITests */ = {
+		167B347A2B05431F0076F261 /* SpeakBENUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 167B348B2B05431F0076F261 /* Build configuration list for PBXNativeTarget "WhisperAXUITests" */;
+			buildConfigurationList = 167B348B2B05431F0076F261 /* Build configuration list for PBXNativeTarget "SpeakBENUITests" */;
 			buildPhases = (
 				167B34772B05431F0076F261 /* Sources */,
 				167B34782B05431F0076F261 /* Frameworks */,
@@ -378,9 +300,9 @@
 			dependencies = (
 				167B347D2B05431F0076F261 /* PBXTargetDependency */,
 			);
-			name = WhisperAXUITests;
+			name = SpeakBENUITests;
 			productName = BasicExampleUITests;
-			productReference = 167B347B2B05431F0076F261 /* WhisperAXUITests.xctest */;
+			productReference = 167B347B2B05431F0076F261 /* SpeakBENUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -393,17 +315,6 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					161135DD2B3F66DA003C20F6 = {
-						CreatedOnToolsVersion = 15.1;
-					};
-					161135EF2B3F66DC003C20F6 = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 161135DD2B3F66DA003C20F6;
-					};
-					161135F92B3F66DC003C20F6 = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 161135DD2B3F66DA003C20F6;
-					};
 					167B345D2B05431E0076F261 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -417,7 +328,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 167B34592B05431E0076F261 /* Build configuration list for PBXProject "WhisperAX" */;
+			buildConfigurationList = 167B34592B05431E0076F261 /* Build configuration list for PBXProject "SpeakBEN" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -429,43 +340,20 @@
 			packageReferences = (
 				161135D62B3F66A6003C20F6 /* XCLocalSwiftPackageReference "../.." */,
 				16D581062B4F7DCE000C0AB0 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				73BAE5BE2BBA3A400079A516 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
 			);
 			productRefGroup = 167B345F2B05431E0076F261 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				167B345D2B05431E0076F261 /* CueTouch */,
-				167B34702B05431F0076F261 /* WhisperAXTests */,
-				167B347A2B05431F0076F261 /* WhisperAXUITests */,
-				161135DD2B3F66DA003C20F6 /* WhisperAX Watch App */,
-				161135EF2B3F66DC003C20F6 /* WhisperAX Watch AppTests */,
-				161135F92B3F66DC003C20F6 /* WhisperAX Watch AppUITests */,
+				167B345D2B05431E0076F261 /* SpeakBEN */,
+				167B34702B05431F0076F261 /* SpeakBENTests */,
+				167B347A2B05431F0076F261 /* SpeakBENUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		161135DC2B3F66DA003C20F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		161135EE2B3F66DC003C20F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		161135F82B3F66DC003C20F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		167B345C2B05431E0076F261 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,38 +382,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		161135DA2B3F66DA003C20F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1677AFD42B57632E008C61C0 /* WhisperAXExampleView.swift in Sources */,
-				1677AFD32B5762BC008C61C0 /* WhisperAXWatchApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		161135EC2B3F66DC003C20F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1677AFDD2B5763C7008C61C0 /* WhisperAX_Watch_AppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		161135F62B3F66DC003C20F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1677AFDF2B5763CE008C61C0 /* WhisperAX_Watch_AppUITestsLaunchTests.swift in Sources */,
-				1677AFDE2B5763CB008C61C0 /* WhisperAX_Watch_AppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		167B345A2B05431E0076F261 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F95BE92BB3E00000B11A27 /* DataModel.swift in Sources */,
+				73D804802BB48DB3000DE211 /* Keys.swift in Sources */,
+				73F95BEB2BB3E02000B11A27 /* Camera.swift in Sources */,
+				73F95BE72BB3DF8600B11A27 /* ViewFinderView.swift in Sources */,
 				1677AFE62B57704E008C61C0 /* ContentView.swift in Sources */,
-				1677AFC22B57618A008C61C0 /* WhisperAXApp.swift in Sources */,
+				1677AFC22B57618A008C61C0 /* SpeakBEN.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,176 +415,19 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		161135F22B3F66DC003C20F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 161135DD2B3F66DA003C20F6 /* WhisperAX Watch App */;
-			targetProxy = 161135F12B3F66DC003C20F6 /* PBXContainerItemProxy */;
-		};
-		161135FC2B3F66DC003C20F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 161135DD2B3F66DA003C20F6 /* WhisperAX Watch App */;
-			targetProxy = 161135FB2B3F66DC003C20F6 /* PBXContainerItemProxy */;
-		};
 		167B34732B05431F0076F261 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 167B345D2B05431E0076F261 /* CueTouch */;
+			target = 167B345D2B05431E0076F261 /* SpeakBEN */;
 			targetProxy = 167B34722B05431F0076F261 /* PBXContainerItemProxy */;
 		};
 		167B347D2B05431F0076F261 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 167B345D2B05431E0076F261 /* CueTouch */;
+			target = 167B345D2B05431E0076F261 /* SpeakBEN */;
 			targetProxy = 167B347C2B05431F0076F261 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		161136032B3F66DC003C20F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WhisperAXWatchApp/Preview Content\"";
-				DEVELOPMENT_TEAM = JSGZDY54HP;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required to record audio from the microphone for transcription.";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.argmax.whisperkit.WhisperAX;
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.argmax.whisperkit.WhisperAX.watchkitapp;
-				PRODUCT_NAME = WhisperAX;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Debug;
-		};
-		161136042B3F66DC003C20F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WhisperAXWatchApp/Preview Content\"";
-				DEVELOPMENT_TEAM = JSGZDY54HP;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required to record audio from the microphone for transcription.";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.argmax.whisperkit.WhisperAX;
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.argmax.whisperkit.WhisperAX.watchkitapp;
-				PRODUCT_NAME = WhisperAX;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Release;
-		};
-		1611360A2B3F66DC003C20F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JSGZDY54HP;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.argmax.whisperkit.WhisperAX.watchkitapp.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basic Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Basic Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Debug;
-		};
-		1611360B2B3F66DC003C20F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JSGZDY54HP;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.argmax.whisperkit.WhisperAX.watchkitapp.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basic Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Basic Watch App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Release;
-		};
-		1611360D2B3F66DC003C20F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JSGZDY54HP;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.argmax.whisperkit.WhisperAX.watchkitappUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "Basic Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Debug;
-		};
-		1611360E2B3F66DC003C20F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JSGZDY54HP;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.argmax.whisperkit.WhisperAX.watchkitappUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "Basic Watch App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Release;
-		};
 		167B34832B05431F0076F261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -841,17 +550,22 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WhisperAX/Resources/WhisperAX.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SpeakBEN/Resources/WhisperAX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"WhisperAX/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakBEN/Preview Content\"";
 				DEVELOPMENT_TEAM = 2FN5ZL5G56;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SpeakBEN-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SpeakBEN;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required to help users with the surroundings.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required to record audio from the microphone for transcription.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To access temporary media files.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -867,7 +581,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aadityavaze.realtimegpt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benvision.realtimegpt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -884,17 +598,22 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WhisperAX/Resources/WhisperAX.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SpeakBEN/Resources/WhisperAX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"WhisperAX/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakBEN/Preview Content\"";
 				DEVELOPMENT_TEAM = 2FN5ZL5G56;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SpeakBEN-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SpeakBEN;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required to help users with the surroundings.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required to record audio from the microphone for transcription.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To access temporary media files.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -910,7 +629,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aadityavaze.realtimegpt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benvision.realtimegpt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -929,7 +648,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = JSGZDY54HP;
+				DEVELOPMENT_TEAM = 2FN5ZL5G56;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -941,7 +660,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhisperAX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhisperAX";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakBEN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakBEN";
 			};
 			name = Debug;
 		};
@@ -953,7 +672,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = JSGZDY54HP;
+				DEVELOPMENT_TEAM = 2FN5ZL5G56;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -965,7 +684,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhisperAX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhisperAX";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakBEN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakBEN";
 			};
 			name = Release;
 		};
@@ -976,7 +695,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = JSGZDY54HP;
+				DEVELOPMENT_TEAM = 2FN5ZL5G56;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -999,7 +718,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = JSGZDY54HP;
+				DEVELOPMENT_TEAM = 2FN5ZL5G56;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -1018,34 +737,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		161136022B3F66DC003C20F6 /* Build configuration list for PBXNativeTarget "WhisperAX Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				161136032B3F66DC003C20F6 /* Debug */,
-				161136042B3F66DC003C20F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		161136092B3F66DC003C20F6 /* Build configuration list for PBXNativeTarget "WhisperAX Watch AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1611360A2B3F66DC003C20F6 /* Debug */,
-				1611360B2B3F66DC003C20F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1611360C2B3F66DC003C20F6 /* Build configuration list for PBXNativeTarget "WhisperAX Watch AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1611360D2B3F66DC003C20F6 /* Debug */,
-				1611360E2B3F66DC003C20F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		167B34592B05431E0076F261 /* Build configuration list for PBXProject "WhisperAX" */ = {
+		167B34592B05431E0076F261 /* Build configuration list for PBXProject "SpeakBEN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				167B34832B05431F0076F261 /* Debug */,
@@ -1054,7 +746,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		167B34852B05431F0076F261 /* Build configuration list for PBXNativeTarget "CueTouch" */ = {
+		167B34852B05431F0076F261 /* Build configuration list for PBXNativeTarget "SpeakBEN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				167B34862B05431F0076F261 /* Debug */,
@@ -1063,7 +755,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		167B34882B05431F0076F261 /* Build configuration list for PBXNativeTarget "WhisperAXTests" */ = {
+		167B34882B05431F0076F261 /* Build configuration list for PBXNativeTarget "SpeakBENTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				167B34892B05431F0076F261 /* Debug */,
@@ -1072,7 +764,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		167B348B2B05431F0076F261 /* Build configuration list for PBXNativeTarget "WhisperAXUITests" */ = {
+		167B348B2B05431F0076F261 /* Build configuration list for PBXNativeTarget "SpeakBENUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				167B348C2B05431F0076F261 /* Debug */,
@@ -1099,13 +791,17 @@
 				minimumVersion = 2.3.0;
 			};
 		};
+		73BAE5BE2BBA3A400079A516 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1611360F2B3F6C68003C20F6 /* WhisperKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = WhisperKit;
-		};
 		16D581082B4F7E4E000C0AB0 /* MarkdownUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 16D581062B4F7DCE000C0AB0 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
@@ -1114,6 +810,24 @@
 		16EA36CE2B59E550006CA7CF /* WhisperKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = WhisperKit;
+		};
+		73BAE5B82BBA38680079A516 /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppAuth;
+		};
+		73BAE5BA2BBA38680079A516 /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppAuthCore;
+		};
+		73BAE5BF2BBA3A400079A516 /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73BAE5BE2BBA3A400079A516 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		73BAE5C12BBA3A400079A516 /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73BAE5BE2BBA3A400079A516 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

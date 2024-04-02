@@ -4,7 +4,7 @@
 import SwiftUI
 
 @main
-struct WhisperAXApp: App {
+struct SpeakBEN: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
